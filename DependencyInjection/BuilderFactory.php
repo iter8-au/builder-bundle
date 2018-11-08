@@ -21,7 +21,7 @@ class BuilderFactory
     public static function initialise(array $config): Builder
     {
         return new Builder(
-            self::$builderClasses[$config['default']],
+            new self::$builderClasses[$config['default']],
             $config['cache_dir']
         );
     }
