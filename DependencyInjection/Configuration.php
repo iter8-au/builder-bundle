@@ -9,13 +9,16 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 
 /**
  * Class Configuration.
+ *
+ * @internal
  */
 class Configuration implements ConfigurationInterface
 {
-    public function getConfigTreeBuilder()
+    public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('builder');
+        $treeBuilder = new TreeBuilder('builder');
+
+        $rootNode = $treeBuilder->getRootNode();
 
         $rootNode
             ->children()
@@ -25,8 +28,7 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('cache_dir')
                     ->defaultValue('%kernel.cache_dir%/builder')
                     ->end()
-            ->end()
-        ;
+            ->end();
 
         return $treeBuilder;
     }

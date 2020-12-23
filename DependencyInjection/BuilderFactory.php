@@ -9,7 +9,7 @@ use Builder\Builders\PhpSpreadsheet;
 use Builder\Builders\SpoutBuilder;
 
 /**
- * Class BuilderFactory
+ * Class BuilderFactory.
  */
 class BuilderFactory
 {

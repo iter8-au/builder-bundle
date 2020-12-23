@@ -1,26 +1,26 @@
 {
     "name": "iter8/builder-bundle",
-    "description": "Symfony bundle for builder",
     "type": "symfony-bundle",
+    "description": "Symfony bundle for builder",
     "license": "MIT",
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "iter8/builder": "^4.0",
+        "symfony/config": "^4.4 || ^5.0",
+        "symfony/dependency-injection": "^4.4 || ^5.0",
+        "symfony/http-kernel": "^4.4 || ^5.0"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.11",
+        "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
     "autoload": {
         "psr-4": {
             "Iter8\\Bundle\\BuilderBundle\\": ""
         }
-    },
-    "config": {
-        "platform": {
-            "php": "7.1.8"
-        },
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "require": {
-        "php": "~7.1",
-        "friendsofphp/php-cs-fixer": "^2.0",
-        "iter8/builder": "^4.0",
-        "symfony/config": "^3.4|^4.0",
-        "symfony/dependency-injection": "^3.4|^4.0",
-        "symfony/http-kernel": "^3.4|^4.0"
     }
 }

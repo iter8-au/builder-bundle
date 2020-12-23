@@ -9,7 +9,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
- * Class BuilderExtension.
+ * @internal
  */
 class BuilderExtension extends Extension
 {

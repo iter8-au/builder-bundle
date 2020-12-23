@@ -3,3 +3,4 @@ vendor
 .DS_Store
 /builder_coverage
 /composer.phar
+composer.lock
