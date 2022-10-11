@@ -13,12 +13,6 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
  */
 class BuilderExtension extends Extension
 {
-    /**
-     * Loads a specific configuration.
-     *
-     * @param array            $configs
-     * @param ContainerBuilder $container
-     */
     public function load(
         array $configs,
         ContainerBuilder $container
@@ -36,10 +30,7 @@ class BuilderExtension extends Extension
         ]);
     }
 
-    /**
-     * @return string
-     */
-    public function getAlias()
+    public function getAlias(): string
     {
         return 'builder';
     }
