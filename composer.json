@@ -6,9 +6,9 @@
     "require": {
         "php": "^7.3 || ^8.0",
         "iter8/builder": "^4.0",
-        "symfony/config": "^4.4 || ^5.0 || ^6.0",
-        "symfony/dependency-injection": "^4.4 || ^5.0 || ^6.0",
-        "symfony/http-kernel": "^4.4 || ^5.0 || ^6.0"
+        "symfony/config": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+        "symfony/dependency-injection": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+        "symfony/http-kernel": "^4.4 || ^5.0 || ^6.0 || ^7.0"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.0",

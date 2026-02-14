@@ -6,7 +6,7 @@ namespace Iter8\Bundle\BuilderBundle\DependencyInjection;
 
 use Builder\Builder;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\HttpKernel\DependencyInjection\Extension;
+use Symfony\Component\DependencyInjection\Extension\Extension;
 
 /**
  * @internal
