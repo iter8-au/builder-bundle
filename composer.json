@@ -5,7 +5,7 @@
     "type": "symfony-bundle",
     "require": {
         "php": "^7.3 || ^8.0",
-        "iter8/builder": "^4.0",
+        "iter8/builder": "^4.1",
         "symfony/config": "^4.4 || ^5.0 || ^6.0 || ^7.0 || ^8.0",
         "symfony/dependency-injection": "^4.4 || ^5.0 || ^6.0 || ^7.0 || ^8.0",
         "symfony/http-kernel": "^4.4 || ^5.0 || ^6.0 || ^7.0 || ^8.0"

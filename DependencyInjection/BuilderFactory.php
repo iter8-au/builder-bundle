@@ -6,7 +6,6 @@ namespace Iter8\Bundle\BuilderBundle\DependencyInjection;
 
 use Builder\Builder;
 use Builder\Builders\PhpSpreadsheet;
-use Builder\Builders\SpoutBuilder;
 
 /**
  * Class BuilderFactory.
@@ -14,7 +13,6 @@ use Builder\Builders\SpoutBuilder;
 class BuilderFactory
 {
     private static $builderClasses = [
-        'spout' => SpoutBuilder::class,
         'phpspreadsheet' => PhpSpreadsheet::class,
     ];
 
